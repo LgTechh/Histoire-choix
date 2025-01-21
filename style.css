@@ -1,0 +1,110 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite IN", serif;
+}
+
+.page1{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(img/royaume.jpg);
+    background-size: cover;
+    gap: 5rem;
+}
+h1{
+    display: flex;
+    justify-content: content;
+    -webkit-text-stroke: 1px black;
+    font-size: 3rem;
+    color: white;
+}
+#buttonlancer{
+    background-color: rgba(255, 255, 255, 0.445);
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.page2{
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+textarea{
+    width: 30vw;
+    height: 50vh;
+    background-image: url(img/parchemin.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 40px 80px;
+    resize: none;
+    background-image: fixed;
+    border: none;
+    
+    font-size: 0.9rem;
+}
+.boitechoix{
+    width: 55vw;
+    height: 98vh;
+    text-align: center;
+    background-color:#C0C5C1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    
+   
+}
+.choix{
+    display: flex;
+    width: 100%;
+
+}
+.choix1{
+    height: 650px;
+    background-image: url(img/foret.png);
+    background-size: cover;
+    background-position: center;
+    width: 33%;
+}
+.choix2{
+    height: 650px;
+    background-image: url(img/montagne.png);
+    background-size: cover;
+    background-position: center;
+    width: 33%;
+
+}
+.choix3{
+    height: 650px;
+    background-image: url(img/grotte.png);
+    background-size: cover;
+    background-position: center;
+    width : 33%;
+    
+}
+.boiteChoix1,.boiteChoix2,.boiteChoix3{
+    width: 350px;
+    color: black;
+    font-size: 1.1rem;
+}
+.pChoix{
+    display: flex;
+}
+.p1:hover,.p2:hover,.p3:hover{
+    -webkit-text-stroke: 0.1px yellow;
+    cursor: grab;
+}

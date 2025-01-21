@@ -1,0 +1,183 @@
+L’éveil du Apagnan
+Vous êtes Kael, un aventurier choisi par le Conseil des Skibidi pour une quête périlleuse. Une force obscure menace le royaume du Brainrot, et il ne reste qu’un espoir : réveiller le Apagnan Sacré, une source de magie capable de repousser les ténèbres.
+
+Vous vous tenez devant trois chemins au pied d'une montagne. Une brise glacée vous fait frissonner, et le grondement lointain d’une créature vous met sur vos gardes.
+
+Que faites-vous ?
+1. Prendre le sentier de la forêt de golmon : Ce chemin est entouré de rumeurs. On dit que des esprits y errent, offrant aide ou malédiction.
+2. Gravir le flanc rocheux de la montagne Hopecore : Direct mais risqué, ce sentier est infesté de griffons territoriaux.
+3. Descendre dans la grotte obscure du Lebron James: Une entrée sombre s’ouvre à vos pieds. Le murmure d’eaux souterraines vous intrigue.
+
+
+Choix 1 : La forêt de golmon
+Vous pénétrez sous la canopée verdoyante, où la lumière du soleil est filtrée par des feuillages épais. Soudain, une voix mélodieuse vous appelle :
+— Pupuce, approche. Tu cherches des réponses ?
+
+AD Laurent avec des ailes de fée flotte devant vous, semblant bienveillant.
+
+Que faites-vous ?
+1. Lui demander de l’aide pour trouver le Apagnan sacré.
+2. L’ignorer et poursuivre votre chemin, méfiant.
+3. Tenter de capturer AD Laurent pour en faire un allié ou un subordonné.
+
+    Choix 1.1 : Il vous explique qu'il a entendu parler de cet Artefact et vous guide vers un chemin !
+    1. vous suivez le chemin qu'il vous indique 
+    2. vous ne lui faite pas confiance et décidez de suivre votre instinct
+        
+            Choix 1.1.1 : Vous avez suivis le chemin indiqué et la chance vous sourie, au loin une pierre dans un arbre scintille de mille feux !
+            1. Vous courez vers celle ci et tentez de l'arracher de l'écorce de l'arbre ???
+                -> fin 1.1.1.1 : l'abre vous attrape et vous riez jusqu'a en mourir 
+            
+            2. Vous tentez de faire une blague devant l'arbre et ???
+                -> fin 1.1.1.2 : l'abre rigole et ce sent reconnaissant il vous donne alors la pierre sacré (vous etes devenu fou)
+                
+
+            Choix 1.1.2 : Vous n'avez pas suivis le chemin indiqué, au loin ce dessine une hute avec un magicien nain
+            1. Vous allez lui demander de l'aide, convaincu que cette fois-ci, c'est la bonne.
+                -> fin 1.1.2.1 : Ce n'etait finalement peut etre pas la bonne, il vous transforme en racoon bike.
+            
+            2. tetu vous continuez encore une fois votre chemin 
+                -> fin 1.1.2.2 : Vous vous aventurez toujours plus profondément dans la forêt, et selon la légende, 500 ans plus tard, votre présence hante encore les lieux.
+                 
+                
+    
+    Choix 1.2 : Ca fait maintenant deux heures que vous marchez, assoifé et fatigué vous voyez une marre un peu spécial !
+        1. vous décidez de vous assoir pour vous reposer au bort de l'eau            
+            -> Fin Choix 1.2.1 : Vous etes assis et une gorgée ne ferait pas de mal alors vous tentez de boire et l'eau vous aspire , vous vous etes noyé ! 
+        
+        2. méfiant vous continuez de marcher 
+            
+            Choix 1.2.2 : Vous avez choisi de poursuivre votre marche, quand une douce et agréable odeur vous enveloppe, tandis que vos paupières se ferment lentement.
+            1. Vous tentez de monter dans un arbre avant de vous endormir 
+                -> Fin 1.2.2.1 : Vous n'avez pas réussi à grimper à temps, et une horde de gobelins s'empare de leur butin. Seul l'avenir révélera si vos os deviendront une épée ou un simple cure-dent.
+
+            2. Vous vous laissez bercer par cette douce fragrance en prenant place sur un tronc d’arbre.
+                -> Fin 1.2.2.2 : Une horde de gobelins passe devant vous sans vous remarquer. Vous ne vous réveillerez jamais, et avec le temps, vous commencerez à vous transformer en un arbre de cette magnifique forêt.
+                
+
+
+    Choix 1.3 : vous avez tenté de capturer AD malheuresement vous n'avez pas reussi, vous etes blessez et vous boitez !
+        1. vous décidez de rebrousser chemin et commencez votre retour vers la sortie 
+            -> fin choix 1.3.1 : Vous etes sur le chemin retour et vous tombez dans une marre complétement farfelue, Vous mourez noyé 
+
+        2. vous êtes téméraire et vous décidez de retourner vous battre
+            -> fin choix 1.3.2 : Vous retrouvez AD et effectuez un combat sans relache mais AD finis par prendre le dessus , Vous mourez de vos bléssures
+        
+
+        
+
+
+
+
+
+
+
+Choix 2 : Le flanc rocheux de la montagne Hopecore
+Vous escaladez les rochers abrupts, évitant des éboulements. Un Chill guy surgit, ses oreilles majestueuses créant un vent puissant. Il bloque le passage.
+
+Que faites-vous ?
+1. Sortir votre épée et engager le combat.
+2. Demander le chemin au Chill Guy.
+
+Choix 2.1 : Il reste chill et vous detruit, son Chill power est bien trop élevé comparé au votre.
+        fin 2.1 : Vous etes mort
+
+Choix 2.2 : Il accepte car il reste avant tout un mec chill et vous dit qu'il a deja entendu parler du Apagnan sacré, vous faite une bonne partie de la route avec lui.
+    Vous arrivez maintenant a un croisement et il vous dit qu'il ne continue pas sur le chemin du Apagnan sacré, que faites vous ?
+
+    2.2.1 : Vous continuez la route vers le Apagnan sacré, vous ne pouvez pas abandonner le Skibidi royaume a besoin de vous !
+
+        Vous arrivez dans le village des Chad !
+        2.2.1.1 : Vous cherchez un Sigma guide qui connait la région afin de vous guider dans votre aventure
+
+            Vous avez maintenant un Sigma guide qui va vous accompagner avec son Sigma chien ! Vous sortez donc de la ville afin de continuer votre quete !
+            Vous croisez Fanum et il vous demande la Fanum tax afin de passer mais vous n'aurez pas assez de nourriture pour survivre l'hiver a 2 si vous lui donnez
+                2.2.1.1.1 : Vous lui donnez la nourriture que vous avez, vous ne voulez pas vous battre maintenant, il vous laisse donc passer.
+
+                            Cela fait maintenant quelques semaines que vous avez payé la fanum tax, l'hiver est bien installé et vous n'avez que peu de nourriture
+
+                            2.2.1.1.1.1 :  Vous decidez de tuer votre Sigma guide, vous ne pourrez pas survivre l'hiver en partageant autant de provisions !
+                                                -> Vous l'attaquez et reussissez a le tuer mais vous etes maintenant blesser.
+                                                fin 2.2.1.1.1.1 : Son sigma chien vous saute dessus ! Vous finissez dechicté.
+
+                            2.2.1.1.1.2 :  Vous ne pouvez pas faire ça, il vous a aidé tout a long de la route .
+                                                fin 2.2.1.1.1.2 : C'est lui qui vous attaque, il attend le soir peu avant le repas, vous saute dessus et vous attaque avec son sigma chien, pendant qu'il vous poignarde son sigma chien vous devore, vous mourrez dans la souffrance et le desespoir.
+
+                2.2.1.1.2 : Vous ne lui donnez pas votre nourriture et tentez de vous barricader dans une petite cabane, vous mettez des planches et les clôturez à la porte, comment pourrait-il passer ?                                
+                    fin 2.2.1.1.2 : Il détruit la porte et vous attaque. Vous, paniqué, vous ne pouvez rien faire. Il vous démolit. Avant de vous évanouir, vous voyez votre sigma guide ainsi que son sigma chien s'enfuir discrètement sans vous aider. Vous finissez dans l'estomac de Fanum.
+        
+        2.2.1.2 : Vous n'avez pas besoin d'un Sigma guide, mais seulement de vous afin de trouver le Apagnan sacré !
+                    -> N'ayant pas de guide, vous n'êtes pas bien équipé
+                2.2.1.2.1 : Retourner en ville et acheter de l'équipement.
+                                fin 2.2.1.2.1 : Vous revenez sur vos pas mais êtes perdu, un brouillard mystérieux se lève et une ribambelle de sorcières vous lance des sorts, ne voyant pas les attaques arriver vous ne pouvez rien faire et êtes anéanti.
+                
+                2.2.1.2.2 : Continuer votre chemin, cet équipement ne vous sera probablement pas utile !
+                               fin 2.2.1.2.2 : Vous croisez des bandits, vous êtes trop peu équipé pour leur faire face, en essayant de vous échapper une flèche traverse votre foie, vous vous écroulez et ils vous laissent comme mort après vous avoir dépouillé.
+    
+    2.2.2 : Vous decidez d'arreter de chercher le Apagnan sacré et suivez le Chill guy sur sa route, apres tout vous vous etes attaché a votre compagnon.
+        fin 2.2.2 : Vous continuez avec le Chill guy et vous etes heureux !
+
+
+
+
+
+
+
+Choix 3 : La grotte obscure du Lebron
+La grotte est humide et froide. À l’intérieur, des runes anciennes brillent sur les murs. Vous trouvez une tablette de pierre décrivant un rituel pour éveiller le Apagnan. Mais une ombre serpentine surgit : Lebron James veille sur ce lieu.
+
+    Que faites-vous ?
+    
+    3.1. Tenter de communiquer avec la créature.
+    choix 3.1: Il vous tourne le dos; .
+        choix 3.1.1 Vous l'interpeler: " EH Oh La bête ".
+         Choix 3.1.1.1 : Il se retourne et vous atomise.
+
+        3.1.2 . Son apparence vous semble familié, vous lui lancez: " Eh Oh l'ancien, ça dit quoi ? ça Dunk ? "
+            Choix 3.1.2.1 : Il se retourne, vous dunk dessus. Il vous laisse agoniser sur le sol.
+
+        3.1.3. En bon Skibidi, vous commencez à danser en criant:" LEBRONNNNNN JAMESSSS".
+             Choix 3.1.3.1 : Il s'asseoit sur son trône et déverse sur vous une marmite d'un liquide bouillant. Qui vous calcine et vous laissera dans le même état que l'homme de Pompéi.
+
+    3.2. Saisir la tablette et fuir.
+        choix 3.2: Vous avez oublié le chemin par lequelle vous êtes arrivé 
+        3.2.1. Vous décidez de partir à droite.
+            -> Choix 3.2.1.1: Vous arrivez à sortir de la grotte, en laissant derrière vous le vilain Lebjon Rames. Malheureussement vous tombez sur une pierre qui vous transperce le coeur.
+        
+    3.2.2. Vous décidez de partir à gauche.
+            -> Choix 3.2.2.1 : Vous tombez dans un trou qui vous emmène directement dans un puit de lave. Pas étonnant, vous étiez couche 14. 
+
+        3.2.3. Vous vous rappelez que vous avez dessiné sur les rochers en venant et décidez de suivre ces marques. 
+            -> Choix 3.2.3.1 : Vous vous rendez compte que vous avez dessiné des ronds, et que vous êtes entrain de suivre des carrés. Vous mourrez en compagnie d'ossements d'autre explorateurs.
+
+
+    3.3. Provoquer Lebron pour qu’il vous révèle des a informations sur le Apagnan sacré
+        Choix 3.3: Il accepte votre défi et vous propose de se la régler au basket sur un 1c1. Vous attaquez.   
+        3.3.1. Vous décidez de vous la jouer petit nerveux: vif, rapide sur les appuies, assez bas sur vos cannes. Avant de vous lancez, vous vous écriez:" Je vais le faire courir moi, le rouquin !"
+            -> Choix 3.3.1.1: Lebron fais 2 pas en arrière et décide de jouer le cercle. Votre précision est catastrophique, pas de tir facile aujourd'hui. Vous vous faîtes détruire et vous finirez dévoré par les rats.
+        
+        3.3.2. Vous êtes apaté par ce défis. C'est décidé celui-ci vous allez le corriger, à l'ancienne, en force. Vous n'avez qu'un seul objectif, rentrer dans la raquête et le détruire. 
+             
+            Choix 3.3.2.1: Vous n'avez pas les épaules pour défier le king. Il vous brise les côtes dès le premier contact.
+                1. La côte vous à transpercé un poumon, celui-ci se remplit de sang, vous commencez à cracher du sang et mourrez. 
+                2. Vous décidez d'y retourner, en vous élançant, vous marchez sur un caillou. Votre cheville tourne, votre genou se brise et vous finissez par vous empaler le crâne sur le fémur d'un précédent explorateur. 
+                3. Vous abandonnez le combat, vous laisser le king vous dunker dessus. Votre corps implose sous la pression. 
+        
+        3. Vous tentez de la jouer en finesse, vous pariez sur les faiblesses défensives de Lebron. En mode Step-back 3 à la Harden. 
+
+            Choix 3.3.3 : Vous êtes mâlin, Lebron anticipe votre step-back et vous en profitez pour courir au cercle.
+                1. Vous décidez de jouer le double-pas sécurité
+                    -> Choix 3.3.3.1 : Lebron arrive par derrière vous contre avec la main droite et vous écrase la tête contre l'anneau avec l'autre, vous n'y survivrez pas. 
+
+
+                2. Vous jouez la faute comme votre idôle. 
+
+                    Choix 3.3.3.2 : Lebron vous dit qu'il n'aucune faute ne sera sifflé dans cette grotte. Mais d'un coup un PESSI sauvage apparaît. Il s'écrit: " C'est un PENALDO " Lebron et contrain de vous donner ce que vous êtes venu chercher. 
+                        1. Vous partez sur la route du apagnan sacré. 
+                            -> Choix 3.3.3.2.1 : Vous traversez une forêt, de nuit, sous une pleine lune rouge sang. Vous finissez fauché par une créature. 
+                        
+                        2. Vous décidez de prendre un peu de repos.
+                            -> Choix 3.3.3.2.2 : Vous Vous endormez. Mais vous n'allez jamais vous réveiller, les loups rodent en masses à cette période. 
+                
+                3. Vous êtes le fou du bus, vous tentez de nouveau un step-back en vous écriant: " Allez contrôle V12, FEINTEEEEE "
+                    -> Choix 3.3.3.3 : Lebron vous basch, Et reprend votre phrase:" Allez contrôle, V12, FEINTTEEEE, ACCIDENTTTT". Le ballon ricoche sur un rocher derrière et vient finir sa course dans votre nuque. C'est le coup du lapin, vous mourrez.

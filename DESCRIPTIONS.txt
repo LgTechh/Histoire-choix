@@ -1,0 +1,4 @@
+3 choix différents / sur 3 div avec un hover dessus en doré / lors du clique passage a la page suivante celon le choix /
+l'explication des images en dessous de celle ci / 
+le personnage de dos / lors du clique avance vers le choix en question sur 2/3 sec / 
+background en dessous des divs image en commun 
