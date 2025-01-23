@@ -9,7 +9,6 @@ const choixImg2 = document.querySelector('.choix2');
 const choixImg3 = document.querySelector('.choix3');
 const pDirecteur = document.querySelector('.pDirecteur');
 const textarea = document.querySelector('textarea');
-const choixHistoire = document.querySelector('.choixhistoire');
 const pChoix = document.querySelector('.pChoix');
 
 let currentPath = null;
@@ -95,7 +94,7 @@ function handleChoice(pathId) {
 }
 
 function updateChoices(choices) {
-    pChoix.innerHTML = '';
+    pChoix.textContent = '';
     let index = 1;
     
     Object.entries(choices).forEach(([choiceId, choice]) => {
@@ -134,10 +133,25 @@ function updateChoices(choices) {
 function showEnding(endingText) {
     textarea.value += `\n\n${endingText}`;
     pDirecteur.textContent = "Fin de l'histoire";
-    pChoix.innerHTML = `
-        <p class="ending-text">${endingText}</p>
-        <button class="reload" onclick="window.location.reload()">Recommencer l'histoire</button>
-    `;
+    pChoix.textContent = ''; // Supprime les enfants existants
+
+    const endingParagraph = document.createElement('p');
+    endingParagraph.className = 'ending-text';
+    endingParagraph.textContent = endingText;
+
+    const reloadButton = document.createElement('button');
+    reloadButton.className = 'reload';
+    reloadButton.textContent = 'Recommencer l\'histoire';
+
+    // Ajouter un gestionnaire d'événements sécurisé pour recharger la page
+    reloadButton.addEventListener('click', () => {
+        window.location.reload();
+    });
+
+    // Insérer les éléments créés dans le conteneur pChoix
+    pChoix.appendChild(endingParagraph);
+    pChoix.appendChild(reloadButton);
+
 }
 
 // Continuer l'histoire
@@ -145,13 +159,6 @@ function continueStory(choice) {
     textarea.value += `\n\n${choice.scene}`;
     pDirecteur.textContent = choice.scene;
     updateChoices(choice.choices);
-}
-
-// Réinitialiser le jeu
-function resetGame() {
-    currentPath = null;
-
-setupInitialScene();
 }
 
 // Charger les données au démarrage
