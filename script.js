@@ -32,10 +32,6 @@ async function loadStoryData() {
     console.log(storyData.paths["1"].image)
 }
 
-
-
-
-
 function setupInitialScene() {
     if (!storyData) {
         console.error("Les données de l'histoire ne sont pas chargées.");
