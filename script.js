@@ -20,7 +20,6 @@ buttonlancer.addEventListener('click', function() {
     page2.style.display = 'flex';
 });
 
-// Charger les données du JSON
 async function loadStoryData() {
     try {
         const response = await fetch("story-json.json");
@@ -36,21 +35,22 @@ async function loadStoryData() {
 
 
 
-// Configurer la scène initiale
+
 function setupInitialScene() {
+    if (!storyData) {
+        console.error("Les données de l'histoire ne sont pas chargées.");
+        return;
+    }
     // Mettre à jour le texte initial
     textarea.value = `${storyData.title}\n\n${storyData.introduction.setting}`;
     pDirecteur.textContent = storyData.introduction.initialScene;
     
-    // Configurer les événements pour les choix initiaux
     setupPathChoices();
 }
 
-// Configurer les choix des chemins
 function setupPathChoices() {
     const paths = storyData.paths;
     
-    // Configuration des textes et événements pour chaque choix
     text1.textContent = `1. ${paths["1"].title}: ${paths["1"].description}`;
     text2.textContent = `2. ${paths["2"].title}: ${paths["2"].description}`;
     text3.textContent = `3. ${paths["3"].title}: ${paths["3"].description}`;
@@ -59,7 +59,6 @@ function setupPathChoices() {
     setupChoiceListeners();
 }
 
-// Configurer les écouteurs d'événements pour les choix
 function setupChoiceListeners() {
     text1.addEventListener('click', () => {
         handleChoice("1")
@@ -88,7 +87,6 @@ function setupChoiceListeners() {
 });
 }
 
-// Gérer le choix du joueur
 function handleChoice(pathId) {
     const path = storyData.paths[pathId];
     currentPath = pathId;
@@ -97,11 +95,9 @@ function handleChoice(pathId) {
     textarea.value += `\n\n${path.scene}`;
     pDirecteur.textContent = path.scene;
     
-    // Afficher les nouveaux choix
     updateChoices(path.choices);
 }
 
-// Mettre à jour les choix disponibles
 function updateChoices(choices) {
     pChoix.innerHTML = '';
     let index = 1;
@@ -112,10 +108,18 @@ function updateChoices(choices) {
         choiceElement.textContent = `${index}. ${choice.text}`;
 
         choiceElement.addEventListener('click', () => {
-            if (choice.image) {
+            if ( currentPath === '1' && choice.image) {
                 choixImg1.style.backgroundImage = `url(${choice.image})`;
+
+            }else if ( currentPath === '2' && choice.image) {
+                choixImg2.style.backgroundImage = `url(${choice.image})`;
+
+            }else if (currentPath === '3' && choice.image) {
+                choixImg3.style.backgroundImage = `url(${choice.image})`;
+
             }
-    })
+                console.log(currentPath)
+        });
         
         choiceElement.addEventListener('click', () => {
             if (choice.ending) {
@@ -136,7 +140,7 @@ function showEnding(endingText) {
     pDirecteur.textContent = "Fin de l'histoire";
     pChoix.innerHTML = `
         <p class="ending-text">${endingText}</p>
-        <button onclick="resetGame()">Recommencer l'histoire</button>
+        <button class="reload" onclick="window.location.reload()">Recommencer l'histoire</button>
     `;
 }
 
@@ -150,7 +154,8 @@ function continueStory(choice) {
 // Réinitialiser le jeu
 function resetGame() {
     currentPath = null;
-    setupInitialScene();
+
+setupInitialScene();
 }
 
 // Charger les données au démarrage

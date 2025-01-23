@@ -2,8 +2,11 @@
   "title": "L'éveil du Apagnan",
   "introduction": {
     "setting": "Vous êtes Kael, un aventurier choisi par le Conseil des Skibidi pour une quête périlleuse. Une force obscure menace le royaume du Brainrot, et il ne reste qu'un espoir : réveiller le Apagnan Sacré, une source de magie capable de repousser les ténèbres.",
-    "initialScene": "Vous vous tenez devant trois chemins au pied d'une montagne. Une brise glacée vous fait frissonner, et le grondement lointain d'une créature vous met sur vos gardes."
-  },
+    "initialScene": "Vous vous tenez devant trois chemins au pied d'une montagne. Une brise glacée vous fait frissonner, et le grondement lointain d'une créature vous met sur vos gardes.",
+    "image1":"img/foret.png",
+    "image2":"img/montagne.png",
+    "image3":"img/grotte.png"
+    },
   "paths": {
     "1": {
       "title": "La forêt de golmon",
@@ -19,28 +22,34 @@
             "1.1.1": {
               "text": "Vous suivez le chemin qu'il vous indique",
               "scene": "Vous avez suivis le chemin indiqué et la chance vous sourie, au loin une pierre dans un arbre scintille de mille feux !",
+              "image": "img/arbre_pierre.png",
               "choices": {
                 "1.1.1.1": {
                   "text": "Vous courez vers celle ci et tentez de l'arracher de l'écorce de l'arbre",
-                  "ending": "L'abre vous attrape et vous riez jusqu'a en mourir"
+                  "ending": "L'abre vous attrape et vous riez jusqu'a en mourir",
+                  "image": "img/abre_attrape.jpg"
                 },
                 "1.1.1.2": {
                   "text": "Vous tentez de faire une blague devant l'arbre",
-                  "ending": "L'abre rigole et ce sent reconnaissant il vous donne alors la pierre sacré (vous etes devenu fou)"
+                  "ending": "L'abre rigole et ce sent reconnaissant il vous donne alors la pierre sacré (vous etes devenu fou)",
+                  "image": "img/abre_fou.jpg"
                 }
               }
             },
             "1.1.2": {
               "text": "Vous ne lui faite pas confiance et décidez de suivre votre instinct",
               "scene": "Au loin ce dessine une hute avec un magicien nain",
+              "image": "img/magicien_nain.jpg",
               "choices": {
                 "1.1.2.1": {
                   "text": "Vous allez lui demander de l'aide, convaincu que cette fois-ci, c'est la bonne",
-                  "ending": "Ce n'etait finalement peut etre pas la bonne, il vous transforme en racoon bike"
+                  "ending": "Ce n'etait finalement peut etre pas la bonne, il vous transforme en racoon bike",
+                  "image": "img/racoon_bike.png"
                 },
                 "1.1.2.2": {
                   "text": "Tetu vous continuez encore une fois votre chemin",
-                  "ending": "Vous vous aventurez toujours plus profondément dans la forêt, et selon la légende, 500 ans plus tard, votre présence hante encore les lieux"
+                  "ending": "Vous vous aventurez toujours plus profondément dans la forêt, et selon la légende, 500 ans plus tard, votre présence hante encore les lieux",
+                  "image": "img/foret.png"
                 }
               }
             }
@@ -49,6 +58,7 @@
         "1.2": {
           "text": "L'ignorer et poursuivre votre chemin, méfiant",
           "scene": "Ca fait maintenant deux heures que vous marchez, assoifé et fatigué vous voyez une marre un peu spécial !",
+          "image":"img/Marre_malicieuse.png",
           "choices": {
             "1.2.1": {
               "text": "Vous décidez de vous assoir pour vous reposer au bort de l'eau",
@@ -57,6 +67,7 @@
             "1.2.2": {
               "text": "Méfiant vous continuez de marcher",
               "scene": "Vous avez choisi de poursuivre votre marche, quand une douce et agréable odeur vous enveloppe, tandis que vos paupières se ferment lentement",
+              "image": "img/odeur_douce.jpg",
               "choices": {
                 "1.2.2.1": {
                   "text": "Vous tentez de monter dans un arbre avant de vous endormir",
@@ -76,7 +87,8 @@
           "choices": {
             "1.3.1": {
               "text": "Vous décidez de rebrousser chemin et commencez votre retour vers la sortie",
-              "ending": "Vous etes sur le chemin retour et vous tombez dans une marre complétement farfelue, Vous mourez noyé"
+              "ending": "Vous etes sur le chemin retour et vous tombez dans une marre complétement farfelue, Vous mourez noyé",
+              "image":"img/Marre_malicieuse.png"
             },
             "1.3.2": {
               "text": "Vous êtes téméraire et vous décidez de retourner vous battre",
@@ -90,7 +102,7 @@
         "title": "Le flanc rocheux de la montagne Hopecore",
         "description": "Direct mais risqué, ce sentier est infesté de griffons territoriaux",
         "scene": "Vous escaladez les rochers abrupts, évitant des éboulements. Un Chill guy surgit, ses oreilles majestueuses créant un vent puissant. Il bloque le passage.",
-        "image": "",
+        "image": "img/Chillguy.png",
         "choices": {
           "2.1": {
             "text": "Sortir votre épée et engager le combat",
@@ -99,26 +111,32 @@
           "2.2": {
             "text": "Demander le chemin au Chill Guy",
             "scene": "Il accepte car il reste avant tout un mec chill et vous dit qu'il a deja entendu parler du Apagnan sacré, vous faite une bonne partie de la route avec lui. Vous arrivez maintenant a un croisement et il vous dit qu'il ne continue pas sur le chemin du Apagnan sacré",
+            "image": "img/Chillguy2.jpg",
             "choices": {
               "2.2.1": {
                 "text": "Vous continuez la route vers le Apagnan sacré",
                 "scene": "Vous arrivez dans le village des Chad !",
+                "image": "img/Sigmavillage.png",
                 "choices": {
                   "2.2.1.1": {
                     "text": "Vous cherchez un Sigma guide qui connait la région afin de vous guider dans votre aventure",
                     "scene": "Vous avez maintenant un Sigma guide qui va vous accompagner avec son Sigma chien ! Vous sortez donc de la ville afin de continuer votre quete ! Vous croisez Fanum et il vous demande la Fanum tax afin de passer mais vous n'aurez pas assez de nourriture pour survivre l'hiver a 2 si vous lui donnez",
+                    "image": "img/foret_fanum.png",
                     "choices": {
                       "2.2.1.1.1": {
                         "text": "Vous lui donnez la nourriture que vous avez",
                         "scene": "Cela fait maintenant quelques semaines que vous avez payé la fanum tax, l'hiver est bien installé et vous n'avez que peu de nourriture",
+                        "image": "img/firecamp.jpg",
                         "choices": {
                           "2.2.1.1.1.1": {
                             "text": "Vous decidez de tuer votre Sigma guide",
                             "scene": "Vous l'attaquez et reussissez a le tuer mais vous etes maintenant blesser",
-                            "ending": "Son sigma chien vous saute dessus ! Vous finissez dechicté"
+                            "image": "img/fireplace_sang.png",
+                            "ending": "Son sigma chien vous saute dessus ! Vous finissez déchicté"
                           },
                           "2.2.1.1.1.2": {
                             "text": "Vous ne pouvez pas faire ça, il vous a aidé tout au long de la route",
+                            "image": "img/fireplace_sang.png",
                             "ending": "C'est lui qui vous attaque, il attend le soir peu avant le repas, vous saute dessus et vous attaque avec son sigma chien, pendant qu'il vous poignarde son sigma chien vous devore, vous mourrez dans la souffrance et le desespoir"
                           }
                         }
@@ -126,19 +144,24 @@
                       "2.2.1.1.2": {
                         "text": "Vous ne lui donnez pas votre nourriture",
                         "scene": "Vous tentez de vous barricader dans une petite cabane, vous mettez des planches et les clôturez à la porte",
+                        "image": "img/fanum_cabin.png",
                         "ending": "Il détruit la porte et vous attaque. Vous, paniqué, vous ne pouvez rien faire. Il vous démolit. Avant de vous évanouir, vous voyez votre sigma guide ainsi que son sigma chien s'enfuir discrètement sans vous aider. Vous finissez dans l'estomac de Fanum"
                       }
                     }
                   },
                   "2.2.1.2": {
                     "text": "Vous n'avez pas besoin d'un Sigma guide mais seulement d'un meilleur equipement afin de le trouver !",
+                    "scene": "N'ayant pas de guide, vous avez oublié de bien vous équiper",
+                    "image": "img/route_noguide.jpg",
                     "choices": {
                       "2.2.1.2.1": {
                         "text": "Retourner en ville et acheter de l'équipement",
+                        "image": "img/mistforest.png",
                         "ending": "Vous revenez sur vos pas mais êtes perdu, un brouillard mystérieux se lève et une ribambelle de sorcières vous lance des sorts, ne voyant pas les attaques arriver vous ne pouvez rien faire et êtes anéanti"
                       },
                       "2.2.1.2.2": {
                         "text": "Continuer votre chemin, cet équipement ne vous sera probablement pas utile !",
+                        "image": "img/saobandit.png",
                         "ending": "Vous croisez des bandits, vous êtes trop peu équipé pour leur faire face, en essayant de vous échapper une flèche traverse votre foie, vous vous écroulez et ils vous laissent comme mort après vous avoir dépouillé"
                       }
                     }
@@ -157,7 +180,7 @@
     "title": "La grotte obscure du Lebron",
     "description": "Une entrée sombre s'ouvre à vos pieds. Le murmure d'eaux souterraines vous intrigue",
     "scene": "La grotte est humide et froide. À l'intérieur, des runes anciennes brillent sur les murs. Vous trouvez une tablette de pierre décrivant un rituel pour éveiller le Apagnan. Mais une ombre serpentine surgit : Lebron James veille sur ce lieu.",
-    "image": "",
+    "image": "img/lebron.jpg",
     "choices": {
       "3.1": {
         "text": "Tenter de communiquer avec la créature",
@@ -169,6 +192,7 @@
           },
           "3.1.2": {
             "text": "Son apparence vous semble familié, vous lui lancez: 'Eh Oh l'ancien, ça dit quoi ? ça Dunk ?'",
+            "image": "img/Lebron_Dunk.jpg",
             "ending": "Il se retourne, vous dunk dessus. Il vous laisse agoniser sur le sol."
           },
           "3.1.3": {
@@ -183,15 +207,18 @@
         "choices": {
           "3.2.1": {
             "text": "Vous décidez de partir à droite",
-            "ending": "Vous arrivez à sortir de la grotte, en laissant derrière vous le vilain Lebjon Rames. Malheureusement vous tombez sur une pierre qui vous transperce le coeur."
+            "ending": "Vous arrivez à sortir de la grotte, en laissant derrière vous le vilain Lebjon Rames. Malheureusement vous tombez sur une pierre qui vous transperce le coeur.",
+            "image" : "img/sortie_grotte.png"
           },
           "3.2.2": {
             "text": "Vous décidez de partir à gauche",
-            "ending": "Vous tombez dans un trou qui vous emmène directement dans un puit de lave. Pas étonnant, vous étiez couche 14."
+            "ending": "Vous tombez dans un trou qui vous emmène directement dans un puit de lave. Pas étonnant, vous étiez couche 14.",
+            "image" : "img/minecraft_lave.png"
           },
           "3.2.3": {
             "text": "Vous vous rappelez que vous avez dessiné sur les rochers en venant et décidez de suivre ces marques",
-            "ending": "Vous vous rendez compte que vous avez dessiné des ronds, et que vous êtes entrain de suivre des carrés. Vous mourrez en compagnie d'ossements d'autre explorateurs."
+            "ending": "Vous vous rendez compte que vous avez dessiné des ronds, et que vous êtes entrain de suivre des carrés. Vous mourrez en compagnie d'ossements d'autre explorateurs.",
+            "image": "img/mort.png"
           }
         }
       },
@@ -224,6 +251,7 @@
           "3.3.3": {
             "text": "Vous tentez de la jouer en finesse, vous pariez sur les faiblesses défensives de Lebron. En mode Step-back 3 à la Harden.",
             "scene": "Vous êtes mâlin, Lebron anticipe votre step-back et vous en profitez pour courir au cercle.",
+            "image": "img/harden.jpg",
             "choices": {
               "3.3.3.1": {
                 "text": "Vous décidez de jouer le double-pas sécurité",
@@ -232,6 +260,7 @@
               "3.3.3.2": {
                 "text": "Vous jouez la faute comme votre idôle",
                 "scene": "Lebron vous dit qu'il n'aucune faute ne sera sifflé dans cette grotte. Mais d'un coup un PESSI sauvage apparaît. Il s'écrit: 'C'est un PENALDO' Lebron et contrain de vous donner ce que vous êtes venu chercher.",
+                "image": "img/harden.jpg",
                 "choices": {
                   "3.3.3.2.1": {
                     "text": "Vous partez sur la route du apagnan sacré",
@@ -239,7 +268,8 @@
                   },
                   "3.3.3.2.2": {
                     "text": "Vous décidez de prendre un peu de repos",
-                    "ending": "Vous Vous endormez. Mais vous n'allez jamais vous réveiller, les loups rodent en masses à cette période."
+                    "ending": "Vous Vous endormez. Mais vous n'allez jamais vous réveiller, les loups rodent en masses à cette période.",
+                    "image": "img/loup.png"
                   }
                 }
               },
